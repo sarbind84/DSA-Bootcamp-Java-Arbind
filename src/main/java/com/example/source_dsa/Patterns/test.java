@@ -5,7 +5,7 @@ package com.example.source_dsa.Patterns;
  * @Date : 16-09-2022
  **/
 
-     /*   ----1
+     /* ----1
         ---212
         --32123
         -4321234*/
