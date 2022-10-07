@@ -1,4 +1,4 @@
-package com.example.source_dsa.Patterns;
+package com.example.source_dsa.Patterns.Java_Patterns;
 
 /**
  * @Author : ArbindSharma
