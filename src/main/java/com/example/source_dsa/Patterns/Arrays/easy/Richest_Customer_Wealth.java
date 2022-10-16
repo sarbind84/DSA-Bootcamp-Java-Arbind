@@ -1,5 +1,7 @@
 package com.example.source_dsa.Patterns.Arrays.easy;
 
+import java.util.Arrays;
+
 /**
  * @Author : ArbindSharma
  * @Date : 05-10-2022
@@ -11,6 +13,10 @@ public class Richest_Customer_Wealth {
                 {1,2,3},
                 {3,2,1}
         };
+
+        for (int[] a :  accounts) {
+            System.out.println(Arrays.toString(a));
+        }
 
         int wealth = -1;
         for(int i = 0; i < accounts.length; i++) {

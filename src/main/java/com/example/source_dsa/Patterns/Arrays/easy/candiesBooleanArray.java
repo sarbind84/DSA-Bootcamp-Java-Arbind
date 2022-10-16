@@ -1,7 +1,6 @@
 package com.example.source_dsa.Patterns.Arrays.easy;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -11,7 +10,7 @@ import java.util.List;
 public class candiesBooleanArray {
     public static void main(String[] args) {
 
-        int[] candies = {2,3,5,1,3};
+        int[] candies = {2, 3, 5, 1, 3};
         int extraCandies = 3;
         System.out.println(candies.length);
 
@@ -23,10 +22,9 @@ public class candiesBooleanArray {
 
             int sum = candies[i] + extraCandies;
             int max = maxOfArray(candies);
-            if (sum>=max){
+            if (sum >= max) {
                 listOfBoolean.add(true);
-            }
-            else {
+            } else {
                 listOfBoolean.add(false);
             }
         }
@@ -54,14 +52,18 @@ public class candiesBooleanArray {
     }
 
     private static int maxOfArray(int[] candies) {
-        int max=0;
+        int max = 0;
 
         for (int i = 0; i < candies.length; i++) {
-          if (candies[i]>max){
-              max=candies[i];
-          }
+            if (candies[i] > max) {
+                max = candies[i];
+            }
 
         }
+
+
+
+
         return max;
     }
 }
