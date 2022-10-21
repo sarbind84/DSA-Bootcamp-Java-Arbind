@@ -1,5 +1,7 @@
 package com.example.source_dsa.Patterns;
 
+import java.io.StringReader;
+
 public class TEST {
      static int fact(int n){
          if (n==1){
@@ -7,6 +9,9 @@ public class TEST {
          }
          return n * fact(n-1);
      }
+
+
+
     public static void main(String[] args) {
 
         int n = 5;
