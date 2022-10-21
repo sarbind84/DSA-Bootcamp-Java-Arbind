@@ -1,6 +1,9 @@
 package com.example.source_dsa.Patterns.Arrays.easy;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * @Author : ArbindSharma
@@ -9,8 +12,15 @@ import java.util.List;
 public class test {
     public static void main(String[] args) {
 
-        System.out.printf("hey this is %s and %s","kinal","hi");
 
+       List<String> words =  new ArrayList<>();
+       words.add("hello");
+       words.add("hi");
+       words.add("jii");
+
+        Stream<String> stream = words.stream();
+        stream.filter(e -> e.startsWith("j")).collect(Collectors.toList());
+        System.out.println(words);
 
     }
 }
