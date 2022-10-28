@@ -1,28 +1,33 @@
 package com.example.source_dsa.Patterns;
 
-import java.io.StringReader;
-
 public class TEST {
-     static int fact(int n){
-         if (n==1){
-             return 1;
-         }
-         return n * fact(n-1);
-     }
+    /*
 
+sss*
+ss*-*
+s*---*
+*-----*
 
-
+     */
     public static void main(String[] args) {
 
         int n = 5;
-        int sum = 1;
-
-        /*//brute force approach
-        for (int i = n; i >= 1; i--) {
-            sum = sum *i;
-        }*/
-        System.out.println(fact(5));
-
+        for (int i = 1; i <= n; i++) {
+            //for spaces 
+            for (int j = 1; j <= n - i; j++) {
+                System.out.print("s");
+            }
+            //for stars
+            int stars = (2 * i) - 1;
+            for (int j = 1; j <= stars; j++) {
+                if (j == 1 || j == stars || i == n) {
+                    System.out.print("*");
+                } else {
+                    System.out.print("0");
+                }
+            }
+            System.out.println();
+        }
 
 
     }

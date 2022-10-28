@@ -1,9 +1,10 @@
 package com.example.source_dsa.Patterns.Java_8_Conceptes.masterLamda;
 
-import java.util.Iterator;
-
-
 public abstract class lamdaExpression implements MyInterface {
+    //is used to provide implementation for the functional interface...
+    //which have only one abstract function.
+
+
 //	@Override
 //	public void run() {
 //		
@@ -26,65 +27,59 @@ public abstract class lamdaExpression implements MyInterface {
 //		
 //	}
 
-	 public static void main(String[] args) {
-		 
-		 Runnable r = ()->{
-			 for(int i=0;i<5;i++) {
-				 System.out.println("hello"+i);
-				 try {
-					Thread.sleep(3000);
-				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-			 }
-			 
-			 
-		 };
-Thread gun = new Thread(r);
-		 
-		 gun.start();
-		
-			 
+    public static void main(String[] args) {
 
-		 
-		 
-				 	 
-			 
 
-	 
-		 
-		 
-		 
-		 
-		 
-	 
-		 
-	 
-		 //new interface ke class ka object bna rhe hai 
-		 //then we can create objects
-		 //new MyInterface() - ----- basically this is a new class.
-		 
-			//using our functional interface
+		Runnable reee = ()->{
+			System.out.println("this is lamda power");
+		};
+        Runnable re = new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("this is run method");
+            }
+        };
+
+
+        Runnable r = () -> {
+            for (int i = 0; i < 5; i++) {
+                System.out.println("hello" + i);
+                try {
+                    Thread.sleep(3000);
+                } catch (InterruptedException e) {
+                    // TODO Auto-generated catch block
+                    e.printStackTrace();
+                }
+            }
+        };
+
+
+        Thread gun = new Thread(reee);
+
+        gun.start();
+
+
+        //new interface ke class ka object bna rhe hai
+        //then we can create objects
+        //new MyInterface() - ----- basically this is a new class.
+
+        //using our functional interface
 //			@Override
 //			public void sayHello() {
 //				System.out.println("hello said");
 //				
 //			}
- 
+
 //			obj.sayHello();
-		 
-		 
-		 
-		 
-			 
-			 //using our interface with the help of lamda.	 
+
+
+        //using our interface with the help of lamda.
 //		 MyInterface i = ()->System.out.println("hello");
 //				 i.sayHello();
 //				 MyInterface i2 = ()->System.out.println("again");
 //				 i2.sayHello();
-				 
-		 
+
+
 //		 // for sum operation using lamda and class SumInterface
 //		 
 //		 SumInterface si = (a,b)-> a+b;
@@ -96,11 +91,8 @@ Thread gun = new Thread(r);
 //		 LengthInter li = (str -> str.length());
 //		 
 //		  System.out.println("Hello function lamda"+li.getLength("hello12"));
-				 
-		 
-		 
-		 
-		 
+
+
 //		 Runnable r = () ->
 //			
 //			   {
@@ -120,14 +112,14 @@ Thread gun = new Thread(r);
 //				}
 //				
 //			};
-			
-			//to create a thread on current instance we need a runnable class interface and thread class
-		
-			//runnable has a run method
-			//and we need to run it on a Thread, so we pass the object of runnable in thread and start the run method in thread
+
+        //to create a thread on current instance we need a runnable class interface and thread class
+
+        //runnable has a run method
+        //and we need to run it on a Thread, so we pass the object of runnable in thread and start the run method in thread
 
 
-	 }
+    }
 
 
 }

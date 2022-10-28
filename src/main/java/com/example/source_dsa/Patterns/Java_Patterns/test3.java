@@ -18,6 +18,8 @@ package com.example.source_dsa.Patterns.Java_Patterns;
 */
 public class test3 {
     public static void main(String[] args) {
+        //more simplified code in note
+
         int n=4;
 
         for (int i = 0; i < 2*n; i++) {

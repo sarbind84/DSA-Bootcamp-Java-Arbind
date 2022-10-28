@@ -1,0 +1,11 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Üë®Æýÿÿÿÿ
+q
+java:S4276"[Refactor this code to use the more specialised Functional Interface 'ToIntFunction<String>'(´¤¨µ
+V	java:S125"<This block of commented-out lines of code should be removed.(ó¾Ä¦ÿÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(Ñƒ¯Äýÿÿÿÿ
+E
+java:S1611"/Remove the parentheses around the "t" parameter(´¤¨µ
+Q
+java:S1612";Replace this lambda with method reference 'String::length'.(´¤¨µ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(×¯¨¨

@@ -47,15 +47,16 @@ public static void main(String[] args) {
 	//UNTYPE SAFE COLLECTION
   
 
-//  LinkedList list = new LinkedList();
-//	
-//	list.add("scahi");
-//	list.add(2);
-//	list.add(true);
-//	
-//	System.out.println(list);
-//	
-//	
+  LinkedList list = new LinkedList();
+
+	list.add("scahi");
+	list.add(2);
+	list.add(true);
+
+	System.out.println("Linked list elements = "+list);
+
+
+
   
 //================================================================================
 
@@ -64,8 +65,8 @@ public static void main(String[] args) {
   Vector<String> vector = new Vector<>();
   vector.addAll(names);
    
-  System.out.println("=================\n");
-  System.out.println(vector);
+  System.out.println("=================");
+  System.out.println("vector elements = "+vector);
   
   
   //Transversing through enum

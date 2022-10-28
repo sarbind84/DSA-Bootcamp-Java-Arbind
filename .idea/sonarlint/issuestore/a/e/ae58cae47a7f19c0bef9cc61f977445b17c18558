@@ -1,0 +1,15 @@
+
+Q
+java:S37402"/Provide the parametrized type for this generic.(üæ»­üÿÿÿÿ8¸¢´Õ¿0
+Q
+java:S37402"/Provide the parametrized type for this generic.(üæ»­üÿÿÿÿ8¸¢´Õ¿0
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(³Ú‹Äûÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(±í²
+€
+java:S1149A"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(–œ¢Öıÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(ì«£ùÿÿÿÿ
+S	java:S1068"9Replace this use of System.out or System.err by a logger.(ÁÖ–ºıÿÿÿÿ
+M	java:S106D"9Replace this use of System.out or System.err by a logger.(²ÏË
+U	java:S106E"9Replace this use of System.out or System.err by a logger.(µí¤–8À¢´Õ¿0
+Z	java:S106O"9Replace this use of System.out or System.err by a logger.(İ¡©óüÿÿÿÿ8ïÜµÕ¿0
+Q	java:S125\"<This block of commented-out lines of code should be removed.(„àå

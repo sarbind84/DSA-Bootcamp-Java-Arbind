@@ -9,6 +9,8 @@ class invalidageexception extends Exception{
 }
 
 
+
+
 class myOwnException {
 	
 	public static void validate(int age) throws invalidageexception{
@@ -27,7 +29,7 @@ class myOwnException {
 	public static void main(String[] args) {
 		 
 		try {
-			validate(19);
+			validate(13);
 			
 		} catch (Exception e) {
 			System.out.println("\n");

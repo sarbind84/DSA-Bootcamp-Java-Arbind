@@ -7,25 +7,22 @@ package com.example.source_dsa.Patterns.Java_Patterns;
 public class test4 {
     public static void main(String[] args) {
 
-        int n = 4;
-        for (int i = 0; i <= n; i++) {
-            for (int j = 0; j < n - i; j++) {
-                System.out.print("-");
+        int n = 5;
+        for (int i = 1; i <= n; i++) {
+            //for spaces
+            for (int j = 1; j <= n - i; j++) {
+                System.out.print("s");
             }
-
-            for (int j = 0; j <= i; j++) {
-                if (j == 0 || j == i) System.out.print(" * ");
-                else System.out.print(" o ");
+            //for stars
+            int stars = (2 * i) - 1;
+            for (int j = 1; j <= stars; j++) {
+                if (j == 1 || j == stars || i == n) {
+                    System.out.print("*");
+                } else {
+                    System.out.print("0");
+                }
             }
-            int z = 0;
-            if (i==n){
-                 z=i*2+1;
-            }
-
             System.out.println();
-            for (int j = 0; j < z; j++) {
-                System.out.print(" *");
-            }
         }
 
 
