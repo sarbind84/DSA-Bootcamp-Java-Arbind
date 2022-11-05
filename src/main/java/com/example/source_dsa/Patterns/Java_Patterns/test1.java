@@ -18,7 +18,7 @@ package com.example.source_dsa.Patterns.Java_Patterns;
  */
 public class test1 {
     public static void main(String[] args) {
-
+//this is best for now
         int n = 4;
 
         //upper part
@@ -29,7 +29,7 @@ public class test1 {
 
             int spaces = 2 * (n-i);
             for(int j=1; j<=spaces; j++) {
-                System.out.print("-");
+                System.out.print("u");
             }
 
             for(int j=1; j<=i; j++) {
@@ -46,7 +46,7 @@ public class test1 {
 
             int spaces = 2 * (n-i);
             for(int j=1; j<=spaces; j++) {
-                System.out.print("-");
+                System.out.print("l");
             }
 
             for(int j=1; j<=i; j++) {

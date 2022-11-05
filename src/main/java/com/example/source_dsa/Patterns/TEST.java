@@ -1,33 +1,27 @@
 package com.example.source_dsa.Patterns;
 
 public class TEST {
-    /*
-
-sss*
-ss*-*
-s*---*
-*-----*
-
-     */
     public static void main(String[] args) {
 
-        int n = 5;
-        for (int i = 1; i <= n; i++) {
-            //for spaces 
-            for (int j = 1; j <= n - i; j++) {
-                System.out.print("s");
+        int n = 8;
+        for (int i = 1; i < n; i++) {
+            int stars = i<=n/2 ?(2*i)-1 :2*(n-i)-1;
+            int spacess = i<=n/2 ? n/2-i: (i-n/2);
+            for (int spaces = 0; spaces < spacess; spaces++) {
+                System.out.print("-");
             }
-            //for stars
-            int stars = (2 * i) - 1;
+            System.out.print(stars);
             for (int j = 1; j <= stars; j++) {
-                if (j == 1 || j == stars || i == n) {
+                if (j==1||j==stars) {
                     System.out.print("*");
                 } else {
-                    System.out.print("0");
+                    System.out.print(" ");
                 }
+
             }
             System.out.println();
         }
+
 
 
     }

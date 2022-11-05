@@ -4,7 +4,7 @@ package com.example.source_dsa.Patterns.Java_Patterns;
  * @Author : ArbindSharma
  * @Date : 19-09-2022
  **/
-public class HallowTraiangle {
+public class HallowRectangle {
 
     public static void main(String[] args) {
         //n =4;

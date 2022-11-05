@@ -8,9 +8,9 @@ public class Palindrome {
     public static void main(String[] args) {
         // kamak
 
-      /*  String key = "121";
+        String key = "121";
         String reverseKey = "";
-        System.out.println(key.length());
+        //System.out.println(key.length());
         for (int i = key.length()-1; i >=0 ; i--) {
             reverseKey= reverseKey+key.charAt(i);
         }
@@ -20,9 +20,12 @@ public class Palindrome {
         if(key.equals(reverseKey)){
             System.out.println("match found");
         }
-        else System.out.println("match not found");*/
+        else System.out.println("match not found");
 
-        int key = 121;
+//================================================================================
+
+       /* //for reversing code...
+        int key = 1217;
 
         int temp = key;
         int rem;
@@ -31,11 +34,10 @@ public class Palindrome {
         while (key > 0) {
             rem = key % 10;
             reverse =  rem + (reverse * 10);
-            System.out.println(reverse);
             key = key / 10;
         }
 
-        System.out.println(reverse);
+        System.out.println(reverse);*/
 
     }
 }

@@ -39,3 +39,17 @@ bsrc/main/java/com/example/source_dsa/Patterns/Java_8_Conceptes/Collections/coll
 ksrc/main/java/com/example/source_dsa/Patterns/Java_8_Conceptes/comparableandcomparator/comparablelogic.java,9\a\9ae54360d733b76c1a58c47b3368805e130de2fd
 õ
 ksrc/main/java/com/example/source_dsa/Patterns/Java_8_Conceptes/comparableandcomparator/ComparatorLogic.java,1\4\1400caf0e6571d922f79badd2466d57dba0c9d48
+y
+Isrc/main/java/com/example/source_dsa/Patterns/Java_Patterns/testtttt.java,2\8\28108e7c3ba9d1d36bf70ba0aaddd1948bd9e051
+v
+Fsrc/main/java/com/example/source_dsa/Patterns/Java_Patterns/test5.java,e\a\eab6c06b609f8bfb21561dc49bcbdf84c890b3ef
+v
+Fsrc/main/java/com/example/source_dsa/Patterns/Java_Patterns/test4.java,3\7\372a9725877ee072ca579ea07d5e9d2c6c7db8e0
+v
+Fsrc/main/java/com/example/source_dsa/Patterns/Java_Patterns/test3.java,0\c\0cf29d6a3c3fb9f35e4a7e7ddf866d7bb4d5a098
+u
+Esrc/main/java/com/example/source_dsa/Patterns/Java_Patterns/test.java,d\3\d3ea1231c38ccff14090d14ee7efa324605344f7
+t
+Dsrc/main/java/com/example/source_dsa/Patterns/Java_Patterns/del.java,b\3\b386e0afa629a45baf2a16fcc3300f7f9bbe9256
+Å
+Qsrc/main/java/com/example/source_dsa/Patterns/Java_Patterns/CharacterPattern.java,1\d\1dc331d96c696340abf7577ac725a211f78cee0d

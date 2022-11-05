@@ -6,31 +6,28 @@ package com.example.source_dsa.Patterns.Java_Patterns;
  **/
 
 class PascalTriangle {
-    public int factorial(int i)
-    {
-        if (i == 0)
-            return 1;
-        return i * factorial(i - 1);
-    }
-    public static void main(String[] args)
-    {
-        int n = 7, i, j;
-        PascalTriangle g = new PascalTriangle();
-        for (i = 0; i <= n; i++) {
-            for (j = 0; j <= n - i; j++) {
+    public static void main(String[] args) {
+        int n = 7, j;
+        //to print last line  use  ....--- i = 6,
+        //for single element
+      //  System.out.print(" " + g.factorial(2) / (g.factorial(2 - 1) * g.factorial(1)));
 
+       for (int i = 0; i <= n; i++) {
+            for (j = 0; j <= n - i; j++) {
                 // for left spacing
-                System.out.print(" ");
+                System.out.print("");
             }
             for (j = 0; j <= i; j++) {
-
                 // nCr formula
-                System.out.print("  "+ g.factorial(i) / (g.factorial(i - j) * g.factorial(j)));
+                System.out.print(" "+ factorial(i) / (factorial(i - j) * factorial(j)));
             }
-
             // for newline
             System.out.println();
         }
+    }
+    public static int factorial(int n) {
+        if (n == 0) return 1;
+        return n * factorial(n - 1);
     }
 }
 

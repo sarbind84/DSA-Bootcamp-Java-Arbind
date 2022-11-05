@@ -7,44 +7,31 @@ package com.example.source_dsa.Patterns.Java_Patterns;
 
 /*
 
- *
- **
- ***
- ****
- ***
- **
- *
+* * * *
+-* * *
+--* *
+---*
+---*
+--* *
+-* * *
+* * * *
 
  */
 public class Damru {
     public static void main(String[] args) {
-        int n=4;
-        //for spaces
-        for (int i = 0; i <= 2*n; i++) {
-
-            //after n print one line extra according to requirement
-            int spaces = i>n?n-(i-n):i;
-            if (spaces == n){
-                for (int j = 0; j < spaces; j++) {
-                    System.out.print("-");
-                }
-                System.out.print("*");
-                System.out.println();
-            }
-
-            //for printing spaces
-            for (int j = 0; j < spaces; j++) {
+        int n = 4;
+        for (int i = 1; i <= 2 * n; i++) {
+            int sideSpaces = i > n ? n - (i - n) + 1 : i;
+            for (int j = 1; j < sideSpaces; j++) {
                 System.out.print("-");
             }
-
-
-            //for printing stars
-            int c = i>n ? i-n:n-i;
-            for (int j = 0; j <= c; j++) {
+            //i-n for below part it will print 1 2 and 3 stars..
+            int spaces = i <= n ? n - i + 1 : i - n;
+            for (int j = 1; j <= spaces; j++) {
                 System.out.print("* ");
             }
             System.out.println();
-
         }
+
     }
 }

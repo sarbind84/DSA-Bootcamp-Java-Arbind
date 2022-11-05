@@ -8,11 +8,16 @@ public class HallowEquilaterealTriangle {
 
         int n = 5;
         for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= 2*n-1; j++) {
-                if (i==n||i+j==5||j-i==3)
-                System.out.print("*");
-                else {
-                    System.out.print(" ");
+            //for spaces
+            for (int j = 1; j <= n - i; j++) {
+                System.out.print("-");
+            }
+            int spaces = (2 * i) - 1;
+            for (int j = 1; j <= spaces; j++) {
+                if (j == 1 || j == spaces || i == n) {
+                    System.out.print("*");
+                } else {
+                    System.out.print("s");
                 }
             }
             System.out.println();
