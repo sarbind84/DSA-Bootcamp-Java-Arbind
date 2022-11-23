@@ -1,0 +1,16 @@
+
+2
+java:S1643"Use a StringBuilder instead.(›äÒ¼
+7
+java:S1643"Use a StringBuilder instead.(ı®™­ıÿÿÿÿ
+7
+java:S1643!"Use a StringBuilder instead.(ê’‚şÿÿÿÿ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(³Ë­í
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Å•½„
+6
+java:S1659" Declare "p2" on a separate line.(™õ¿±
+@
+java:S1197"*Move the array designators [] to the type.(Ÿ™†·
+T	java:S106("9Replace this use of System.out or System.err by a logger.(ü„ê!8ô²¡ÀÅ0
+V	java:S125-"<This block of commented-out lines of code should be removed.(ÍüÇÑûÿÿÿÿ
+V	java:S125D"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
