@@ -1,8 +1,6 @@
 
 w
 Gsrc/main/java/com/example/source_dsa/Patterns/Arrays/easy/Plus_One.java,a\f\af6c455b8148acb64c5749b63a5945ff4db1a653
-|
-Lsrc/main/java/com/example/source_dsa/Patterns/String/easy/shuffleString.java,3\1\3120d002d14cc7e02ddf5c507ca6dae51dbe1d47
 â
 Ysrc/main/java/com/example/source_dsa/Patterns/String/easy/Goal_Parser_Interpretation.java,a\3\a35a742ac998ef6ab0a379ed1fc9a53338e356f4
 í
@@ -57,12 +55,8 @@ v
 Fsrc/main/java/com/example/source_dsa/Patterns/Java_Patterns/Readme.txt,4\e\4ef0acc317caafc72dba1d2d3eed870d3a728913
 â
 Ysrc/main/java/com/example/source_dsa/Patterns/Java_Patterns/HallowPatterns/Butterfly.java,6\7\67fb43d9b59c889b77b8bea636ac825db32ebe9b
-ò
-hsrc/main/java/com/example/source_dsa/Patterns/String/easy/Check_If_Two_String_Arrays_are_Equivalent.java,7\2\72241b029bb38deaf07f7921d3efdaf0a0324328
 v
 Fsrc/main/java/com/example/source_dsa/Patterns/Java_Patterns/Damru.java,d\f\df9cb627f6495eca059037a9ef39181b483cfa11
-ì
-csrc/main/java/com/example/source_dsa/Patterns/String/easy/Determine_if_String_Halves_Are_Alike.java,d\c\dcc30180e74deee27cd08fc9ba3ae3bf67985b07
 x
 Hsrc/main/java/com/example/source_dsa/Patterns/Java_Patterns/Diamond.java,a\c\ac9dfb6ffb2d5fc791e786b8e688aeee5771fbbd
 Ä
@@ -95,10 +89,6 @@ Lsrc/main/java/com/example/source_dsa/Patterns/String/easy/To_Lower_Case.java,d
 Msrc/main/java/com/example/source_dsa/Patterns/String/easy/find_substring.java,e\5\e5479a03534067be0006dd428c3f00debc0fce3b
 g
 7src/main/java/com/example/source_dsa/Patterns/TEST.java,b\7\b7f619a8fba3a0cb015cab5fa4c4f60a1f241aae
-S
-#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
-û
-nsrc/main/java/com/example/source_dsa/Patterns/String/easy/Decrypt_String_from_Alphabet_to_Integer_Mapping.java,0\0\0053b49449ab76a7bbf2c5c65d244e01632e9ec9
 å
 \src/main/java/com/example/source_dsa/Patterns/String/easy/Reverse_Words_in_a_String_III.java,b\b\bb177c002ee397cccd3612b8613ccea42e77c79f
 Ö
@@ -111,3 +101,19 @@ Psrc/main/java/com/example/source_dsa/Patterns/String/easy/Long_Pressed_Name.jav
 Osrc/main/java/com/example/source_dsa/Patterns/String/easy/Valid_Palindrome.java,0\f\0f208736340ee5f24a127c79544f7cda6b1dd058
 {
 Ksrc/main/java/com/example/source_dsa/Patterns/String/easy/isPalimdrome.java,5\7\5724984671389fc356ee40d32df3439cb47a54a9
+Ä
+Psrc/main/java/com/example/source_dsa/Patterns/String/easy/Valid_Palindrome2.java,0\d\0d66d3be100bd08340a20f2397a80be634730962
+|
+Lsrc/main/java/com/example/source_dsa/Patterns/String/easy/shuffleString.java,3\1\3120d002d14cc7e02ddf5c507ca6dae51dbe1d47
+ò
+hsrc/main/java/com/example/source_dsa/Patterns/String/easy/Check_If_Two_String_Arrays_are_Equivalent.java,7\2\72241b029bb38deaf07f7921d3efdaf0a0324328
+~
+Nsrc/main/java/com/example/source_dsa/Patterns/String/easy/defangIpAddress.java,6\7\67dc849cd93e46976afd24c46af548713d7831f5
+û
+nsrc/main/java/com/example/source_dsa/Patterns/String/easy/Decrypt_String_from_Alphabet_to_Integer_Mapping.java,0\0\0053b49449ab76a7bbf2c5c65d244e01632e9ec9
+ì
+csrc/main/java/com/example/source_dsa/Patterns/String/easy/Determine_if_String_Halves_Are_Alike.java,d\c\dcc30180e74deee27cd08fc9ba3ae3bf67985b07
+°
+qsrc/main/java/com/example/source_dsa/Patterns/String/easy/Find_the_Index_of_the_First_Occurrence_in_a_String.java,b\8\b80c75388d831b83f4c21c79983892a092047fa9
+ù
+msrc/main/java/com/example/source_dsa/Patterns/String/easy/Longest_Substring_Without_Repeating_Characters.java,3\d\3d6b9eba8f02253ab12b4bf2093a720b9c738afe
