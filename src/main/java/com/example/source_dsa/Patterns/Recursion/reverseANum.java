@@ -2,13 +2,8 @@ package com.example.source_dsa.Patterns.Recursion;
 
 public class reverseANum {
     public static void main(String[] args) {
-
         int num = 341;
-
-
         System.out.println(rev(431));
-
-
     }
 
     public static int rev(int x) {
