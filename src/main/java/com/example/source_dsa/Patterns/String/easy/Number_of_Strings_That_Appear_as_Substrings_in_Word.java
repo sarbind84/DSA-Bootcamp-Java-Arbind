@@ -18,31 +18,35 @@ public class Number_of_Strings_That_Appear_as_Substrings_in_Word {
         }
         System.out.println(count);*/
 
-        String mainString = "hello how are you hello";
-        String subString1 = "hello";
+
         int count = 0;
 
-        for (String p : pattern) {
+     /*   for (String p : pattern) {
             if (findsubstring(subString, p)) {
                 count++;
             }
-        }
-        System.out.println(count);
+        }*/
+      //  System.out.println(count);
+
+        System.out.println(findsubstring("aaaba         aaaba  aab a      aaabaa aaba     aaaba      aaaba","aaaba"));
     }
 
-    private static boolean findsubstring(String mainString, String subString) {
-        for (int i = 0; i < mainString.length(); i++) {
-            int j;
-            for (j = 0; j < subString.length(); j++) {
-                if (mainString.charAt(i + j) != subString.charAt(j)) {
-                    break;
+    private static int findsubstring(String mainString, String subString) {
+        int n = mainString.length(), m = subString.length();
+        int max = 0;
+        for(int i = 0;i < n;i++) {
+            int cnt = 0, k = 0;
+            for(int j = i;j < n;j++) {
+                if(mainString.charAt(j) == subString.charAt(k)) k++;
+                else break;
+                if(k == m) {
+                    k = 0;
+                    cnt++;
                 }
             }
-            if (j == subString.length()) {
-//                System.out.println("Found at Index = " + i);
-                return true;
-            }
+            //for covering cover cases
+            max = Math.max(max, cnt);
         }
-        return false;
+        return max;
     }
 }

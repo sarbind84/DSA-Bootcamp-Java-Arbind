@@ -1,4 +1,4 @@
-package com.example.source_dsa.Patterns.Recursion;
+package com.example.source_dsa.Patterns.Recursion.level1questions;
 
 public class reverseANum {
     public static void main(String[] args) {
