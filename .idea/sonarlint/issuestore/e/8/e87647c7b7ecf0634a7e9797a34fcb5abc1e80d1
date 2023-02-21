@@ -1,0 +1,10 @@
+
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¿ı²“ùÿÿÿÿ
+[
+java:S2184"ECast one of the operands of this subtraction operation to a "double".(‡Š³•
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(øá‚°ÿÿÿÿÿ
+M
+java:S1854"7Remove this useless assignment to local variable "num".(ëîáÆ
+>
+java:S1481"(Remove this unused "num" local variable.(ëîáÆ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÑÄß¹

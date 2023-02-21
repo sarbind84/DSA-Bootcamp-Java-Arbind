@@ -39,5 +39,27 @@ public class Palindrome {
 
         System.out.println(reverse);*/
 
+
+
+
+     /*     String s = "121";
+
+       int start =0;
+        int end = s.length()-1;
+
+        while (start<end){
+
+            if(s.charAt(start) != s.charAt(end)){
+                System.out.println("not a palindrome");
+                break;
+            }else {
+                start++;
+                end--;
+            }
+            System.out.println("a palindrome");
+        }*/
+
+
+
     }
 }
