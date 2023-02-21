@@ -1,6 +1,5 @@
-package com.example.source_dsa.Patterns.Recursion.PattrernAndBubbleSort;
+package com.example.source_dsa.Patterns.Recursion.PattrernAndSorting;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 /**
