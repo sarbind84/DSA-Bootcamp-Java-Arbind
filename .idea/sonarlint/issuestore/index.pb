@@ -47,3 +47,7 @@ Jsrc/main/java/com/example/source_dsa/Patterns/Recursion/PrintOneToTwo.java,b\9
 Lsrc/main/java/com/example/source_dsa/Patterns/Recursion/ProductOfDigits.java,e\6\e6b90bac8c0415c46ad1105e34b51b3e2a2b1ded
 ì
 csrc/main/java/com/example/source_dsa/Patterns/Recursion/arrayQuestions/returnAllIndexOfElement.java,f\e\fe1b952d6b6cb1920419be4a93a11c6888bf4136
+ê
+`src/main/java/com/example/source_dsa/Patterns/Recursion/PattrernAndSorting/BubbleSortNormal.java,7\7\77112871b69efd0bc171e85858960fd614370067
+ç
+]src/main/java/com/example/source_dsa/Patterns/Recursion/PattrernAndSorting/SelectionSort.java,4\0\40e997c650dadcf6f4638e3e9ab7b50e3eb9b9e6
