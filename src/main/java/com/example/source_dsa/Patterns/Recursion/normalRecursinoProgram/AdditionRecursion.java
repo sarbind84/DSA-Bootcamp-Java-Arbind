@@ -1,4 +1,4 @@
-package com.example.source_dsa.Patterns.Recursion;
+package com.example.source_dsa.Patterns.Recursion.normalRecursinoProgram;
 
 public class AdditionRecursion {
 

@@ -21,6 +21,8 @@ public class SelectionSort {
             return;
         }
 
+
+        //yha max ko utha ke last me rakh dia hai
         if (c < r) {
             if (arr[c] > arr[max]) {
                 selectionSort(arr, r, c + 1, c);

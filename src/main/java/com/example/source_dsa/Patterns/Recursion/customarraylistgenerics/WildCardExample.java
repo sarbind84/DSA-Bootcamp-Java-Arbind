@@ -1,14 +1,16 @@
 package com.example.source_dsa.Patterns.Recursion.customarraylistgenerics;
 
-import javax.management.ObjectName;
-import java.util.ArrayList;
 import java.util.Arrays;
 
 /**
  * @Author : ArbindSharma
  * @Date : 24-02-2023
  **/
-public class CustomArraylist<T> {
+
+
+// Numbers wildcard entry to accept all format
+    //here T should be Numbers or any subclass 
+public class WildCardExample<T extends Number> {
 
     private static final int DEFAULT_SIZE = 10;
 
@@ -18,7 +20,7 @@ public class CustomArraylist<T> {
 
     //you can't create an instance of generic type
     //cuz it happen in runtime
-    private CustomArraylist() {
+    private WildCardExample() {
         this.data = new Object[DEFAULT_SIZE];
     }
 
@@ -38,7 +40,7 @@ public class CustomArraylist<T> {
         arrayList.add(4);
         System.out.println(arrayList);*/
 
-                CustomArraylist<Integer> arrayList = new CustomArraylist();
+                WildCardExample<Integer> arrayList = new WildCardExample();
                 arrayList.add(34);
                 arrayList.add(Integer.valueOf("kjfd"));
 
